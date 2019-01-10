@@ -13,3 +13,6 @@ end
 # mary is 25 years old
 
 #....
+
+
+#student_ages["Peter"]

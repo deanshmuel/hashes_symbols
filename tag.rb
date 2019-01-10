@@ -21,3 +21,12 @@ end
 
 #puts tag("h1","google it!")
 puts tag("a", "Le Wagon", { href: "http://lewagon.org", class: "btn" })
+
+#############
+#super cool thing:
+# whenever the LAST ARGUMENT your passing to a function is a HASH you can drop the {}
+#for example:
+puts tag("a", "Le Wagon", { href: "http://lewagon.org", class: "btn" })
+#can be written as:
+puts tag("a", "Le Wagon", href: "http://lewagon.org", class: "btn" )
+#how cool is that??
